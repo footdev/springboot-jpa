@@ -14,7 +14,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class MemberService {
 
-    private MemberRepository memberRepository;
+    private final MemberRepository memberRepository;
 
     //회원 가입
     @Transactional
